@@ -1,0 +1,20 @@
+{
+  "name": "bd-district-info-api",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Free Bangladesh divisions, districts, upazilas and postcode REST API by RA Fahim",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "license": "MIT",
+  "author": "RA Fahim <dev@rafahim.com>"
+}

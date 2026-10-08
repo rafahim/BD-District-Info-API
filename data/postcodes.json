@@ -1,0 +1,834 @@
+[
+  {
+    "code": "8700",
+    "district_id": "dist-01",
+    "district": {
+      "en": "Barguna",
+      "bn": "বরগুনা"
+    },
+    "division": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "8200",
+    "district_id": "dist-02",
+    "district": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "division": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "8300",
+    "district_id": "dist-03",
+    "district": {
+      "en": "Bhola",
+      "bn": "ভোলা"
+    },
+    "division": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "8400",
+    "district_id": "dist-04",
+    "district": {
+      "en": "Jhalokati",
+      "bn": "ঝালকাঠি"
+    },
+    "division": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "8600",
+    "district_id": "dist-05",
+    "district": {
+      "en": "Patuakhali",
+      "bn": "পটুয়াখালী"
+    },
+    "division": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "8500",
+    "district_id": "dist-06",
+    "district": {
+      "en": "Pirojpur",
+      "bn": "পিরোজপুর"
+    },
+    "division": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "4600",
+    "district_id": "dist-07",
+    "district": {
+      "en": "Bandarban",
+      "bn": "বান্দরবান"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3400",
+    "district_id": "dist-08",
+    "district": {
+      "en": "Brahmanbaria",
+      "bn": "ব্রাহ্মণবাড়িয়া"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3600",
+    "district_id": "dist-09",
+    "district": {
+      "en": "Chandpur",
+      "bn": "চাঁদপুর"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "4000",
+    "district_id": "dist-10",
+    "district": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3500",
+    "district_id": "dist-11",
+    "district": {
+      "en": "Cumilla",
+      "bn": "কুমিল্লা"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "4700",
+    "district_id": "dist-12",
+    "district": {
+      "en": "Cox's Bazar",
+      "bn": "কক্সবাজার"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3900",
+    "district_id": "dist-13",
+    "district": {
+      "en": "Feni",
+      "bn": "ফেনী"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "4400",
+    "district_id": "dist-14",
+    "district": {
+      "en": "Khagrachhari",
+      "bn": "খাগড়াছড়ি"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3700",
+    "district_id": "dist-15",
+    "district": {
+      "en": "Lakshmipur",
+      "bn": "লক্ষ্মীপুর"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3800",
+    "district_id": "dist-16",
+    "district": {
+      "en": "Noakhali",
+      "bn": "নোয়াখালী"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "4500",
+    "district_id": "dist-17",
+    "district": {
+      "en": "Rangamati",
+      "bn": "রাঙ্গামাটি"
+    },
+    "division": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "1000",
+    "district_id": "dist-18",
+    "district": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7800",
+    "district_id": "dist-19",
+    "district": {
+      "en": "Faridpur",
+      "bn": "ফরিদপুর"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "1700",
+    "district_id": "dist-20",
+    "district": {
+      "en": "Gazipur",
+      "bn": "গাজীপুর"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "8100",
+    "district_id": "dist-21",
+    "district": {
+      "en": "Gopalganj",
+      "bn": "গোপালগঞ্জ"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "2300",
+    "district_id": "dist-22",
+    "district": {
+      "en": "Kishoreganj",
+      "bn": "কিশোরগঞ্জ"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7900",
+    "district_id": "dist-23",
+    "district": {
+      "en": "Madaripur",
+      "bn": "মাদারীপুর"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "1800",
+    "district_id": "dist-24",
+    "district": {
+      "en": "Manikganj",
+      "bn": "মানিকগঞ্জ"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "1500",
+    "district_id": "dist-25",
+    "district": {
+      "en": "Munshiganj",
+      "bn": "মুন্সীগঞ্জ"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "1400",
+    "district_id": "dist-26",
+    "district": {
+      "en": "Narayanganj",
+      "bn": "নারায়ণগঞ্জ"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "1600",
+    "district_id": "dist-27",
+    "district": {
+      "en": "Narsingdi",
+      "bn": "নরসিংদী"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7700",
+    "district_id": "dist-28",
+    "district": {
+      "en": "Rajbari",
+      "bn": "রাজবাড়ী"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "8000",
+    "district_id": "dist-29",
+    "district": {
+      "en": "Shariatpur",
+      "bn": "শরীয়তপুর"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "1900",
+    "district_id": "dist-30",
+    "district": {
+      "en": "Tangail",
+      "bn": "টাঙ্গাইল"
+    },
+    "division": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "9300",
+    "district_id": "dist-31",
+    "district": {
+      "en": "Bagerhat",
+      "bn": "বাগেরহাট"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7200",
+    "district_id": "dist-32",
+    "district": {
+      "en": "Chuadanga",
+      "bn": "চুয়াডাঙ্গা"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7400",
+    "district_id": "dist-33",
+    "district": {
+      "en": "Jashore",
+      "bn": "যশোর"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7300",
+    "district_id": "dist-34",
+    "district": {
+      "en": "Jhenaidah",
+      "bn": "ঝিনাইদহ"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "9000",
+    "district_id": "dist-35",
+    "district": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7000",
+    "district_id": "dist-36",
+    "district": {
+      "en": "Kushtia",
+      "bn": "কুষ্টিয়া"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7600",
+    "district_id": "dist-37",
+    "district": {
+      "en": "Magura",
+      "bn": "মাগুরা"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7100",
+    "district_id": "dist-38",
+    "district": {
+      "en": "Meherpur",
+      "bn": "মেহেরপুর"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "7500",
+    "district_id": "dist-39",
+    "district": {
+      "en": "Narail",
+      "bn": "নড়াইল"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "9400",
+    "district_id": "dist-40",
+    "district": {
+      "en": "Satkhira",
+      "bn": "সাতক্ষীরা"
+    },
+    "division": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "2000",
+    "district_id": "dist-41",
+    "district": {
+      "en": "Jamalpur",
+      "bn": "জামালপুর"
+    },
+    "division": {
+      "en": "Mymensingh",
+      "bn": "ময়মনসিংহ"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "2200",
+    "district_id": "dist-42",
+    "district": {
+      "en": "Mymensingh",
+      "bn": "ময়মনসিংহ"
+    },
+    "division": {
+      "en": "Mymensingh",
+      "bn": "ময়মনসিংহ"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "2400",
+    "district_id": "dist-43",
+    "district": {
+      "en": "Netrokona",
+      "bn": "নেত্রকোণা"
+    },
+    "division": {
+      "en": "Mymensingh",
+      "bn": "ময়মনসিংহ"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "2100",
+    "district_id": "dist-44",
+    "district": {
+      "en": "Sherpur",
+      "bn": "শেরপুর"
+    },
+    "division": {
+      "en": "Mymensingh",
+      "bn": "ময়মনসিংহ"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5800",
+    "district_id": "dist-45",
+    "district": {
+      "en": "Bogura",
+      "bn": "বগুড়া"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5900",
+    "district_id": "dist-46",
+    "district": {
+      "en": "Joypurhat",
+      "bn": "জয়পুরহাট"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "6500",
+    "district_id": "dist-47",
+    "district": {
+      "en": "Naogaon",
+      "bn": "নওগাঁ"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "6400",
+    "district_id": "dist-48",
+    "district": {
+      "en": "Natore",
+      "bn": "নাটোর"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "6300",
+    "district_id": "dist-49",
+    "district": {
+      "en": "Chapai Nawabganj",
+      "bn": "চাঁপাইনবাবগঞ্জ"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "6600",
+    "district_id": "dist-50",
+    "district": {
+      "en": "Pabna",
+      "bn": "পাবনা"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "6000",
+    "district_id": "dist-51",
+    "district": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "6700",
+    "district_id": "dist-52",
+    "district": {
+      "en": "Sirajganj",
+      "bn": "সিরাজগঞ্জ"
+    },
+    "division": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5200",
+    "district_id": "dist-53",
+    "district": {
+      "en": "Dinajpur",
+      "bn": "দিনাজপুর"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5700",
+    "district_id": "dist-54",
+    "district": {
+      "en": "Gaibandha",
+      "bn": "গাইবান্ধা"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5600",
+    "district_id": "dist-55",
+    "district": {
+      "en": "Kurigram",
+      "bn": "কুড়িগ্রাম"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5500",
+    "district_id": "dist-56",
+    "district": {
+      "en": "Lalmonirhat",
+      "bn": "লালমনিরহাট"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5300",
+    "district_id": "dist-57",
+    "district": {
+      "en": "Nilphamari",
+      "bn": "নীলফামারী"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5000",
+    "district_id": "dist-58",
+    "district": {
+      "en": "Panchagarh",
+      "bn": "পঞ্চগড়"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5400",
+    "district_id": "dist-59",
+    "district": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "5100",
+    "district_id": "dist-60",
+    "district": {
+      "en": "Thakurgaon",
+      "bn": "ঠাকুরগাঁও"
+    },
+    "division": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3300",
+    "district_id": "dist-61",
+    "district": {
+      "en": "Habiganj",
+      "bn": "হবিগঞ্জ"
+    },
+    "division": {
+      "en": "Sylhet",
+      "bn": "সিলেট"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3200",
+    "district_id": "dist-62",
+    "district": {
+      "en": "Moulvibazar",
+      "bn": "মৌলভীবাজার"
+    },
+    "division": {
+      "en": "Sylhet",
+      "bn": "সিলেট"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3000",
+    "district_id": "dist-63",
+    "district": {
+      "en": "Sunamganj",
+      "bn": "সুনামগঞ্জ"
+    },
+    "division": {
+      "en": "Sylhet",
+      "bn": "সিলেট"
+    },
+    "type": "district_headquarters"
+  },
+  {
+    "code": "3100",
+    "district_id": "dist-64",
+    "district": {
+      "en": "Sylhet",
+      "bn": "সিলেট"
+    },
+    "division": {
+      "en": "Sylhet",
+      "bn": "সিলেট"
+    },
+    "type": "district_headquarters"
+  }
+]

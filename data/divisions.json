@@ -1,0 +1,82 @@
+[
+  {
+    "id": "div-01",
+    "name": {
+      "en": "Barishal",
+      "bn": "বরিশাল"
+    },
+    "slug": "barishal",
+    "district_count": 6,
+    "upazila_count": 42
+  },
+  {
+    "id": "div-02",
+    "name": {
+      "en": "Chattogram",
+      "bn": "চট্টগ্রাম"
+    },
+    "slug": "chattogram",
+    "district_count": 11,
+    "upazila_count": 104
+  },
+  {
+    "id": "div-03",
+    "name": {
+      "en": "Dhaka",
+      "bn": "ঢাকা"
+    },
+    "slug": "dhaka",
+    "district_count": 13,
+    "upazila_count": 89
+  },
+  {
+    "id": "div-04",
+    "name": {
+      "en": "Khulna",
+      "bn": "খুলনা"
+    },
+    "slug": "khulna",
+    "district_count": 10,
+    "upazila_count": 59
+  },
+  {
+    "id": "div-05",
+    "name": {
+      "en": "Mymensingh",
+      "bn": "ময়মনসিংহ"
+    },
+    "slug": "mymensingh",
+    "district_count": 4,
+    "upazila_count": 35
+  },
+  {
+    "id": "div-06",
+    "name": {
+      "en": "Rajshahi",
+      "bn": "রাজশাহী"
+    },
+    "slug": "rajshahi",
+    "district_count": 8,
+    "upazila_count": 67
+  },
+  {
+    "id": "div-07",
+    "name": {
+      "en": "Rangpur",
+      "bn": "রংপুর"
+    },
+    "slug": "rangpur",
+    "district_count": 8,
+    "upazila_count": 58
+  },
+  {
+    "id": "div-08",
+    "name": {
+      "en": "Sylhet",
+      "bn": "সিলেট"
+    },
+    "slug": "sylhet",
+    "district_count": 4,
+    "upazila_count": 41
+  }
+]

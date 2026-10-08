@@ -1,0 +1,171 @@
+openapi: 3.0.3
+info:
+  title: BD District Info API
+  version: 1.0.0
+  description: Free Bangladesh administrative geography REST API by RA Fahim.
+  contact:
+    name: RA Fahim
+    url: https://rafahim.com
+    email: dev@rafahim.com
+servers:
+  - url: http://localhost:3000
+  - url: https://your-project.vercel.app
+paths:
+  /:
+    get:
+      summary: API landing page
+      responses:
+        '200':
+          description: HTML API landing page
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: Healthy API response
+  /divisions:
+    get:
+      summary: List divisions
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Divisions
+  /divisions/{name}:
+    get:
+      summary: Get a division and its districts
+      parameters:
+        - $ref: '#/components/parameters/Name'
+      responses:
+        '200':
+          description: Division details
+        '404':
+          description: Division not found
+  /districts:
+    get:
+      summary: List districts
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+        - in: query
+          name: division
+          schema:
+            type: string
+        - in: query
+          name: sort
+          schema:
+            type: string
+            enum: [population, name]
+      responses:
+        '200':
+          description: Districts
+  /districts/{name}:
+    get:
+      summary: Get a district
+      parameters:
+        - $ref: '#/components/parameters/Name'
+      responses:
+        '200':
+          description: District details
+        '404':
+          description: District not found
+  /districts/{name}/upazilas:
+    get:
+      summary: List upazilas inside a district
+      parameters:
+        - $ref: '#/components/parameters/Name'
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Upazilas in district
+        '404':
+          description: District not found
+  /upazilas:
+    get:
+      summary: List upazilas
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+        - in: query
+          name: division
+          schema:
+            type: string
+        - in: query
+          name: district
+          schema:
+            type: string
+        - in: query
+          name: sort
+          schema:
+            type: string
+            enum: [name]
+      responses:
+        '200':
+          description: Upazilas
+  /postcode/{code}:
+    get:
+      summary: Find a district headquarters postcode
+      parameters:
+        - in: path
+          name: code
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Postcode matches
+        '404':
+          description: Postcode not found
+  /search:
+    get:
+      summary: Search divisions, districts and upazilas
+      parameters:
+        - in: query
+          name: q
+          required: true
+          schema:
+            type: string
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Search results
+        '400':
+          description: Missing search term
+  /random:
+    get:
+      summary: Get a random administrative item
+      parameters:
+        - in: query
+          name: type
+          schema:
+            type: string
+            enum: [all, division, district, upazila]
+      responses:
+        '200':
+          description: Random item
+components:
+  parameters:
+    Page:
+      in: query
+      name: page
+      schema:
+        type: integer
+        minimum: 1
+        default: 1
+    Limit:
+      in: query
+      name: limit
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 100
+        default: 20
+    Name:
+      in: path
+      name: name
+      required: true
+      schema:
+        type: string

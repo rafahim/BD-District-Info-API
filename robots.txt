@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /health
+Sitemap: https://rafahim.com/bd-district-api/sitemap.xml

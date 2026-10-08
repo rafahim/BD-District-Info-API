@@ -1,0 +1,3 @@
+Contact: mailto:dev@rafahim.com
+Canonical: https://rafahim.com/bd-district-api/.well-known/security.txt
+Preferred-Languages: en,bn

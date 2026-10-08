@@ -1,0 +1,100 @@
+{
+  "info": {
+    "_postman_id": "b9f6f6e3-3a77-4c0c-bd-api-2026",
+    "name": "BD District Info API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Postman collection for the BD District Info API by RA Fahim."
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Root",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/"
+      }
+    },
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/health"
+      }
+    },
+    {
+      "name": "Docs",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/docs"
+      }
+    },
+    {
+      "name": "Divisions",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/divisions?page=1&limit=20"
+      }
+    },
+    {
+      "name": "Dhaka Division",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/divisions/Dhaka"
+      }
+    },
+    {
+      "name": "Districts",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/districts?page=1&limit=20"
+      }
+    },
+    {
+      "name": "Dhaka District",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/districts/Dhaka"
+      }
+    },
+    {
+      "name": "Dhaka Upazilas",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/districts/Dhaka/upazilas"
+      }
+    },
+    {
+      "name": "Upazilas",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/upazilas?page=1&limit=20"
+      }
+    },
+    {
+      "name": "Postcode 1000",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/postcode/1000"
+      }
+    },
+    {
+      "name": "Search Dhaka",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/search?q=Dhaka&page=1&limit=20"
+      }
+    },
+    {
+      "name": "Random",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/random?type=upazila"
+      }
+    }
+  ]
+}
