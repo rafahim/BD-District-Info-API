@@ -8,7 +8,7 @@ Free, offline-friendly source-data REST API for Bangladesh administrative geogra
 - Description: Free Bangladesh administrative geography REST API by RA Fahim with bilingual division, district and upazila data.
 - Keywords: `bd district api`, `bangladesh district api`, `bangladesh upazila api`, `postcode api bangladesh`
 - Author: RA Fahim
-- Canonical: https://rafahim.com/bd-district-api/
+- Portfolio: https://rafahim.com/
 
 ## Features
 
